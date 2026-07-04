@@ -9,11 +9,11 @@
 
 # Solution:- 
 
-# x=int(input("Enter a number : "))
-# if (x<0):
-#     print(x,"is a negative number.")
-# else:
-#     print(x, "is a positive number.")
+x=int(input("Enter a number : "))
+if (x<0):
+    print(x,"is a negative number.")
+else:
+    print(x, "is a positive number.")
 
 
 # ______________________________________________________________________
@@ -30,11 +30,11 @@
 # Solution:- 
 
 
-# x=int(input("Enter a number : "))
-# if(x%2==0):
-#     print(x,"is an even number .")
-# else:
-#     print(x,"is an odd number .")
+x=int(input("Enter a number : "))
+if(x%2==0):
+    print(x,"is an even number .")
+else:
+    print(x,"is an odd number .")
 
 # _________________________________________________________________________
 
@@ -50,12 +50,12 @@
 
 # Solution:-
 
-# x=int(input("Enter your age : "))
+x=int(input("Enter your age : "))
 
-# if (x>=18):
-#     print("You're eligible to vote.")
-# else:
-#     print("Not Eligible .")
+if (x>=18):
+    print("You're eligible to vote.")
+else:
+    print("Not Eligible .")
 
 
 # _______________________________________________________________________________
@@ -72,12 +72,12 @@
 
 # Solution :- 
 
-# marks=int(input("Enter your marks : "))
+marks=int(input("Enter your marks : "))
 
-# if(marks>=33):
-#     print("Pass")
-# else:
-#     print("Fail")
+if(marks>=33):
+    print("Pass")
+else:
+    print("Fail")
 
 # ___________________________________________________________________
 
@@ -97,13 +97,13 @@
 
 # Solution:-
 
-# year=int(input("Enter the year : "))
+year=int(input("Enter the year : "))
 
-# if(year%400==0 or year%4==0 ):
-#     print("leap year")
+if(year%400==0 or year%4==0 ):
+    print("leap year")
 
-# else:
-#     print("Not a leap year .")
+else:
+    print("Not a leap year .")
 
 
 # ___________________________________________________________
@@ -120,16 +120,14 @@
 
 # Solution:-
 
-# ch = input("Enter a character: ")
+ch = input("Enter a character: ")
 
-# if ch.isalpha():
-#     print("Alphabet")
-# elif ch.isdigit():
-#     print("Digit")
-# else:
-#     print("Special Character")
-
-
+if ch.isalpha():
+    print("Alphabet")
+elif ch.isdigit():
+    print("Digit")
+else:
+    print("Special Character")
 
 x=input("Enter items : ")
 

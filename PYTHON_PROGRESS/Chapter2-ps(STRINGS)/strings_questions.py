@@ -2,16 +2,16 @@
 
 # Solution:
 
-# username = str(input("Enter your name : "))
-# print(f"Good Afternoon {username}")
-# _________________________________________________________________________________
+username = str(input("Enter your name : "))
+print(f"Good Afternoon {username}")
+_________________________________________________________________________________
 
 # 2:- Write a program to detect double space in a string .
 
 # Solution:-
 
-# name = "Thankur  Shailove Singh "
-# print(name.find("  "))
+name = "Thankur  Shailove Singh "
+print(name.find("  "))
 
 # # ___________________________________________________________________________________
 
@@ -19,7 +19,7 @@
 
 # # Solution :-
 
-# print(name.replace("  "," "))
+print(name.replace("  "," "))
 
 # _______________________________________________________________________________________
 

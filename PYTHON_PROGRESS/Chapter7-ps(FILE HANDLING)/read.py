@@ -1,7 +1,7 @@
-# file = open("h.txt","r")
-# data=file.read()
-# print(data)
-# file.close()
+file = open("h.txt","r")
+data=file.read()
+print(data)
+file.close()
 
 
 text= "hii my name is shailove"

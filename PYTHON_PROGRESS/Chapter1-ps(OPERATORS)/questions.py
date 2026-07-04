@@ -12,12 +12,14 @@
 
 
 # #Solution :- 
-# x=str(input("Enter Your Name : " ))
-# y=int(input("Enter Your Age : " ))
-# z=float(input("Enter Your Height : " ))
-# a=str(input("Whether you're a student or not ? : " ))
 
-# print( x,"\n","\n", y ,"\n",z ,"\n",a)
+
+x=str(input("Enter Your Name : " ))
+y=int(input("Enter Your Age : " ))
+z=float(input("Enter Your Height : " ))
+a=str(input("Whether you're a student or not ? : " ))
+
+print( x,"\n","\n", y ,"\n",z ,"\n",a)
 
 # ____________________________________________________________________________
 
@@ -29,10 +31,12 @@
 # _________________________________________________________________________________________________________
 
 # # Solution
-# a=10
-# b=20
-# dif=a-b
-# print(dif)
+
+
+a=10
+b=20
+dif=a-b
+print(dif)
 
 
 # ________________________________________________________________________________________________________
@@ -47,14 +51,16 @@
 # Division
 
 # Solution
-# a=10
-# b=5
-# dif= a-b
-# mul = a*b
-# add=a+b
-# div=a/b
 
-# print( " ",dif,"\n",mul,"\n",add,"\n",div)
+
+a=10
+b=5
+dif= a-b
+mul = a*b
+add=a+b
+div=a/b
+
+print( " ",dif,"\n",mul,"\n",add,"\n",div)
 
 
 # _______________________________________________________________________________________
@@ -70,8 +76,8 @@
 # Fix it.
 
 
-# age = int(input("Enter age: "))
-# print(age + 5)
+age = int(input("Enter age: "))
+print(age + 5)
 
 
 # __________________________________________________________________________________
@@ -92,12 +98,12 @@
 
 # Solution:
 
-# x = float(input(" Enter your number : "))
-# a= type(x)
-# print(a)
-# y=str(a)
-# g=type(y)
-# print(g)
+x = float(input(" Enter your number : "))
+a= type(x)
+print(a)
+y=str(a)
+g=type(y)
+print(g)
 
 # __________________________________________________________________________
 
@@ -115,16 +121,16 @@
 
 # and print all.
 
-# num=25
-# x=float(num)
-# y=type(x)
-# print(y)
-# p=str(num)
-# q=type(p)
-# print(q)
-# r=bool(num)
-# t=type(r)
-# print(t)
+num=25
+x=float(num)
+y=type(x)
+print(y)
+p=str(num)
+q=type(p)
+print(q)
+r=bool(num)
+t=type(r)
+print(t)
 
 
 # _____________________________________________________________________
@@ -140,9 +146,9 @@
 
 
 # Solution:
-# print(10 // 3)
-# print(10 % 3)
-# print(10 ** 3)
+print(10 // 3)
+print(10 % 3)
+print(10 ** 3)
 
 # _______________________________________________________________
 
@@ -153,12 +159,12 @@
 
 # Solution:
 
-# x=int(input("Enter your first number : "))
-# y=int(input("Enter Second Number : "))
-# if(x>y):
-#     print("Greater number is : ",x)
-# else:
-#     print(y,"is greater number. ")
+x=int(input("Enter your first number : "))
+y=int(input("Enter Second Number : "))
+if(x>y):
+    print("Greater number is : ",x)
+else:
+    print(y,"is greater number. ")
 
 
 # _____________________________________________________________________
@@ -171,11 +177,11 @@
 
 # Solution :
 
-# dob = int(input("Enter your date of birth : "))
-# py=int(input("Enter present year : "))
+dob = int(input("Enter your date of birth : "))
+py=int(input("Enter present year : "))
 
-# curr_age=py-dob
-# print(curr_age)
+curr_age=py-dob
+print(curr_age)
 
 
 # __________________________________________________________________________
@@ -192,9 +198,9 @@
 
 # Solution : 
 
-# temp=float(input("Enter temperature in celsius :"))
-# f_temp= (temp * 9/5)+32
-# print(f_temp)
+temp=float(input("Enter temperature in celsius :"))
+f_temp= (temp * 9/5)+32
+print(f_temp)
 
 
 # ______________________________________________________________________________________
@@ -210,9 +216,9 @@
 
 # Solution:
 
-# x=float(input("Enter your bill amount : "))
-# y = x+18%x
-# print(y)
+x=float(input("Enter your bill amount : "))
+y = x+18%x
+print(y)
 
 
 # ________________________________________________________________________________________
