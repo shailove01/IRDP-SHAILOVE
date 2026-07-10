@@ -1,7 +1,4 @@
 
-
-
-
 class Employee:
     a=1
 class Shailove(Employee):    # Single Level Inheritance occured.
@@ -16,3 +13,6 @@ print(o.a,o.b)    # Child Class of Employee Class.
 o = Coder()
 print(o.a, o.b, o.c)    #Child Class of both Employee and Shailove Class.
                             # Multi-Level Inheritence Occured
+
+
+

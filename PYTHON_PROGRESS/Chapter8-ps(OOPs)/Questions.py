@@ -6,14 +6,14 @@
 
 # # Solution :- 
 
-# class Programmer:
-#     company = "Microsoft"
-#     def __init__(self, name , salary):
-#         self.name = name
-#         self.salary = salary
+class Programmer:
+    company = "Microsoft"
+    def __init__(self, name , salary):
+        self.name = name
+        self.salary = salary
 
-# s=Programmer("Shailove", 1200545)
-# print(s.name, s.salary)
+s=Programmer("Shailove", 1200545)
+print(s.name, s.salary)
 
 
 # # Q2 :-
@@ -24,31 +24,31 @@
 
 # # Solution :- 
 
-# class Calculator:
+class Calculator:
 
-#     def __init__(self, n, c):
-#         self.n = n
-#         self.c = c
+    def __init__(self, n, c):
+        self.n = n
+        self.c = c
 
-#     def square(self):
-#         return f"The square of {self.n} is {self.n * self.n}"
+    def square(self):
+        return f"The square of {self.n} is {self.n * self.n}"
 
-#     def add(self):
-#         return f"The addition of {self.n} and {self.c} is {self.n + self.c}"
+    def add(self):
+        return f"The addition of {self.n} and {self.c} is {self.n + self.c}"
 
-#     def mul(self):
-#         return f"The multiplication of {self.n} and {self.c} is {self.n * self.c}"
+    def mul(self):
+        return f"The multiplication of {self.n} and {self.c} is {self.n * self.c}"
 
-#     def diff(self):
-#         return f"The difference of {self.n} and {self.c} is {self.n - self.c}"
+    def diff(self):
+        return f"The difference of {self.n} and {self.c} is {self.n - self.c}"
 
 
-# a = Calculator(10, 5)
+a = Calculator(10, 5)
 
-# print(a.square())
-# print(a.add())
-# print(a.mul())
-# print(a.diff())
+print(a.square())
+print(a.add())
+print(a.mul())
+print(a.diff())
 
 
 
